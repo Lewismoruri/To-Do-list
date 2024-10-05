@@ -339,8 +339,8 @@ document.addEventListener("DOMContentLoaded", () => {
     function getUserPreferences() {
         const storedPreferences = localStorage.getItem("userPreferences");
         const defaultPreferences = {
-            name: "John Doe",
-            email: "john@gmail.com",
+            name: "Pixel Lewis",
+            email: "lewis@gmail.com",
         };
 
         return storedPreferences
@@ -407,8 +407,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const preferences = getUserPreferences();
 
     if (
-        preferences.name === "Lewis Moruri" &&
-        preferences.email === "Lewis@gmail.com"
+        preferences.name === "Pixel Lewis" &&
+        preferences.email === "lewis@gmail.com"
     ) {
         // If preferences are default, prompt the user for their name and email
         promptForNameAndEmail();
