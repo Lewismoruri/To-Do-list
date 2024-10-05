@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (willDelete) {
                         localStorage.removeItem(taskId);
                         event.target.closest(".card").remove();
-                        swal("Poof! Your task has been deleted!", {
+                        swal("Your task has been deleted!", {
                             icon: "success",
                         });
                     }
