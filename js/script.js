@@ -407,8 +407,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const preferences = getUserPreferences();
 
     if (
-        preferences.name === "John Doe" &&
-        preferences.email === "john@gmail.com"
+        preferences.name === "Lewis Moruri" &&
+        preferences.email === "Lewis@gmail.com"
     ) {
         // If preferences are default, prompt the user for their name and email
         promptForNameAndEmail();
